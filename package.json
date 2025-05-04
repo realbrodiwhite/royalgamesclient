@@ -1,0 +1,17 @@
+{
+  "name": "royal-casino",
+  "version": "0.6.0",
+  "private": true,
+  "description": "Root project for Royal Casino applications",
+  "license": "MIT",
+  "packageManager": "npm@latest",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start-client1": "cd client1 && npm start",    
+    "start-server": "cd server && npm start",
+    "start-admin": "cd admin && npm start",
+    "start-all": "npm run start-server && (npm run start-client1 & npm run start-admin)"
+  }
+}

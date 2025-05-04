@@ -1,0 +1,43 @@
+{
+  "name": "royal-casino-admin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Admin dashboard for the Royal Casino application, providing management and monitoring tools.",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "axios": "latest",
+    "react-router-dom": "latest",
+    "@reduxjs/toolkit": "latest",
+    "react-redux": "latest",
+    "@mui/material": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "socket.io-client": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start --port 3002",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
